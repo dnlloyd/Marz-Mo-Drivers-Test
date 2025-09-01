@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/mo-driver-test/',
+  base: '/marz-driver-test/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
