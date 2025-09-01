@@ -1,0 +1,996 @@
+[
+  {
+    "category": "Exam Basics",
+    "prompt": "How many questions are on Missouri's written test, and how many must you answer correctly to pass?",
+    "options": [
+      "30 questions; 24 correct",
+      "25 questions; 20 correct",
+      "20 questions; 18 correct",
+      "40 questions; 32 correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The written test has 25 multiple-choice questions; you must get 20 correct to pass.",
+    "refs": "Ch. 1 – Driver Guide overview (25 Q, need 20 correct)",
+    "id": "q001"
+  },
+  {
+    "category": "Signals & Turns",
+    "prompt": "You should signal at least how far before turning?",
+    "options": [
+      "50 feet",
+      "100 feet",
+      "150 feet",
+      "200 feet"
+    ],
+    "answerIndex": 1,
+    "explanation": "Signal at least 100 feet before you turn to give others time to react.",
+    "refs": "Ch. 3 – Hand and Vehicle Signals",
+    "id": "q002"
+  },
+  {
+    "category": "School Buses",
+    "prompt": "When a school bus has flashing red lights and a stop arm extended on a two‑lane road, you must:",
+    "options": [
+      "Slow down and pass with caution",
+      "Stop only if you are behind the bus",
+      "Stop before reaching the bus from either direction",
+      "Proceed if no children are visible"
+    ],
+    "answerIndex": 2,
+    "explanation": "On two‑lane roads (including two‑lane one‑way), all traffic must stop before reaching the bus.",
+    "refs": "Ch. 3 – School Buses",
+    "id": "q003"
+  },
+  {
+    "category": "School Buses",
+    "prompt": "Which situation does NOT require you to stop for a school bus with flashing red lights?",
+    "options": [
+      "You are on the opposite side of a highway divided by a median",
+      "You are behind the bus on a two‑lane road",
+      "You are approaching the bus from the opposite direction on a two‑lane one‑way street",
+      "You are approaching the bus on a two‑lane road without a median"
+    ],
+    "answerIndex": 0,
+    "explanation": "On a divided highway (or any roadway with 4+ lanes when you're traveling the opposite direction), you don't stop.",
+    "refs": "Ch. 3 – School Buses (divided highways & 4+ lanes exceptions)",
+    "id": "q004"
+  },
+  {
+    "category": "Passing",
+    "prompt": "Passing on the RIGHT is allowed in which case?",
+    "options": [
+      "When the car ahead is under the speed limit",
+      "When using the shoulder to get around a left‑turning vehicle",
+      "On a one‑way street with multiple marked lanes",
+      "On any two‑lane road if you can speed up safely"
+    ],
+    "answerIndex": 2,
+    "explanation": "Passing on the right is permitted on one‑way streets, city streets wide enough for two lines of traffic each way, or 4+ lane roads—but never by driving on the shoulder.",
+    "refs": "Ch. 3 – Passing on the Right",
+    "id": "q005"
+  },
+  {
+    "category": "Passing",
+    "prompt": "You must NOT pass on the left when any of the following is true EXCEPT:",
+    "options": [
+      "You are within 100 feet of an intersection",
+      "You are approaching a hill crest or curve with limited view",
+      "You are within 100 feet of a bridge or tunnel",
+      "The centerline is broken (dashed) and the way is clear"
+    ],
+    "answerIndex": 3,
+    "explanation": "Do not pass near hills/curves with limited view, within 100 ft of intersections/railroad crossings/bridges/tunnels, or where there is a solid yellow line.",
+    "refs": "Ch. 3 – Passing on the Left (no‑passing situations)",
+    "id": "q006"
+  },
+  {
+    "category": "Parking",
+    "prompt": "During the skills test, how close must you finish parallel parking to the curb?",
+    "options": [
+      "Within 24 inches",
+      "Within 18 inches",
+      "Within 12 inches",
+      "Touching the curb is acceptable"
+    ],
+    "answerIndex": 1,
+    "explanation": "Parallel parking must end within 18 inches of the curb.",
+    "refs": "Ch. 2 – Driving Test: Parallel Parking",
+    "id": "q007"
+  },
+  {
+    "category": "GDL (Teen Licensing)",
+    "prompt": "With an intermediate license, how many passengers under 19 (not immediate family) may you carry during the FIRST six months?",
+    "options": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answerIndex": 1,
+    "explanation": "For the first six months: no more than one passenger under 19 who is not immediate family.",
+    "refs": "Ch. 1 – Intermediate License: Driving Restrictions",
+    "id": "q008"
+  },
+  {
+    "category": "GDL (Teen Licensing)",
+    "prompt": "After the FIRST six months with an intermediate license, the max number of non‑family passengers under 19 is:",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Unlimited"
+    ],
+    "answerIndex": 2,
+    "explanation": "After the first six months, up to three passengers under 19 (non‑family).",
+    "refs": "Ch. 1 – Intermediate License: Driving Restrictions",
+    "id": "q009"
+  },
+  {
+    "category": "GDL (Teen Licensing)",
+    "prompt": "The intermediate license night‑driving restriction is:",
+    "options": [
+      "No driving from midnight to 6 a.m. unless to/from work",
+      "No driving from 1:00 a.m. to 5:00 a.m. unless to/from school, job, emergency, or with a licensed 21+ driver",
+      "No driving after 10 p.m.",
+      "No driving before 6 a.m."
+    ],
+    "answerIndex": 1,
+    "explanation": "Intermediate drivers may not drive 1:00–5:00 a.m. except for listed exceptions or with a 21+ licensed driver.",
+    "refs": "Ch. 1 – Intermediate License: Driving Restrictions",
+    "id": "q010"
+  },
+  {
+    "category": "GDL (Teen Licensing)",
+    "prompt": "To graduate from an instruction permit to an intermediate license, you must have held the permit for at least _____ and completed _____ hours of driving (_____ at night).",
+    "options": [
+      "3 months; 25; 5",
+      "6 months; 40; 10",
+      "9 months; 50; 10",
+      "12 months; 60; 15"
+    ],
+    "answerIndex": 1,
+    "explanation": "Minimum 6 months with the permit and 40 hours including 10 at night.",
+    "refs": "Ch. 1 – To Graduate to an Intermediate License",
+    "id": "q011"
+  },
+  {
+    "category": "GDL (Teen Licensing)",
+    "prompt": "At age 16 or older with an instruction permit, your supervising driver must be in the front seat and be at least:",
+    "options": [
+      "18 years old with a valid permit",
+      "19 years old with 1+ years licensed",
+      "21 years old with a valid driver license",
+      "25 years old with 3+ years licensed"
+    ],
+    "answerIndex": 2,
+    "explanation": "At 16+, the accompanying driver must be 21 or older with a valid license and sit in the front seat.",
+    "refs": "Ch. 1 – Permit Notes",
+    "id": "q012"
+  },
+  {
+    "category": "Intersections",
+    "prompt": "At an uncontrolled intersection (no signs/signals), you must yield to:",
+    "options": [
+      "Vehicles on your left",
+      "Vehicles already in the intersection and vehicles coming from your right",
+      "Only pedestrians",
+      "No one—it's first come, first served"
+    ],
+    "answerIndex": 1,
+    "explanation": "Yield to vehicles already in the intersection and, when arriving at the same time, to vehicles coming from your right.",
+    "refs": "Ch. 3 – Intersections & Right‑of‑Way",
+    "id": "q013"
+  },
+  {
+    "category": "Intersections",
+    "prompt": "At a four‑way stop, who should proceed first?",
+    "options": [
+      "The largest vehicle",
+      "The vehicle on the left",
+      "The vehicle that stopped first (after a complete stop)",
+      "The fastest vehicle"
+    ],
+    "answerIndex": 2,
+    "explanation": "After stopping, the driver who reached the intersection first proceeds first.",
+    "refs": "Ch. 3 – Intersections & Right‑of‑Way",
+    "id": "q014"
+  },
+  {
+    "category": "Emergency Vehicles",
+    "prompt": "When approaching a stationary emergency vehicle with flashing red or red/blue lights on a multi‑lane roadway, you must:",
+    "options": [
+      "Honk and maintain speed",
+      "Immediately stop in your lane",
+      "Either safely change to a non‑adjacent lane or slow down with due caution",
+      "Speed up to clear the area faster"
+    ],
+    "answerIndex": 2,
+    "explanation": "Missouri's Move Over law requires a safe lane change away from the vehicle if possible; otherwise slow down with caution.",
+    "refs": "Ch. 3 – Emergency Vehicles (Move Over)",
+    "id": "q015"
+  },
+  {
+    "category": "Skills Test",
+    "prompt": "Which item is REQUIRED on the vehicle you use for the driving skills test?",
+    "options": [
+      "Tinted windows",
+      "Two sets of brakes (foot & parking)",
+      "Rear spoiler",
+      "Backup camera"
+    ],
+    "answerIndex": 1,
+    "explanation": "Your test vehicle must have working seat belts, doors, horn, current plates/inspection, proof of insurance, and two sets of brakes.",
+    "refs": "Ch. 2 – Before the Driving Test",
+    "id": "q016"
+  },
+  {
+    "category": "Parking",
+    "prompt": "General hill parking guidance is to turn your wheels sharply _____ so that if the vehicle rolls, it moves away from traffic.",
+    "options": [
+      "toward the side of the road",
+      "toward the centerline",
+      "straight ahead",
+      "it doesn't matter"
+    ],
+    "answerIndex": 0,
+    "explanation": "Turn wheels toward the side of the road so an unplanned roll goes away from traffic (see detailed diagrams in the guide).",
+    "refs": "Ch. 5 – Parking on Hills",
+    "id": "q017"
+  },
+  {
+    "category": "Highway Driving",
+    "prompt": "On highways with 4+ total lanes, the general rule is to:",
+    "options": [
+      "Cruise in the left lane for best visibility",
+      "Keep right except to pass, enter, or prepare for a legal left turn",
+      "Drive in any lane at the same speed",
+      "Use the shoulder to overtake slow traffic"
+    ],
+    "answerIndex": 1,
+    "explanation": "Keep to the right unless passing, letting others merge, or preparing for a legal left turn. Never use the shoulder to pass.",
+    "refs": "Ch. 6 – Drive in the Proper Lane / Passing on Highways",
+    "id": "q018"
+  },
+  {
+    "category": "Highway Driving",
+    "prompt": "Using the shoulder to pass another vehicle is:",
+    "options": [
+      "Allowed when traffic is heavy",
+      "Allowed below 30 mph",
+      "Never allowed—it is illegal and unsafe",
+      "Allowed if your hazard lights are on"
+    ],
+    "answerIndex": 2,
+    "explanation": "Never use the shoulder or unpaved portion to pass.",
+    "refs": "Ch. 6 – Passing on Highways",
+    "id": "q019"
+  },
+  {
+    "category": "Parking",
+    "prompt": "Which is a NO‑PARKING location?",
+    "options": [
+      "On the right side of a one‑way street",
+      "On a crosswalk or sidewalk",
+      "Along a white curb for brief loading",
+      "Facing the direction of travel on the right side of a two‑way street"
+    ],
+    "answerIndex": 1,
+    "explanation": "Do not park in an intersection, on a crosswalk or sidewalk, across driveways, on bridges, or alongside yellow curbs, etc.",
+    "refs": "Ch. 5 – No‑Parking Zones",
+    "id": "q020"
+  },
+  {
+    "category": "Roundabouts & Turns",
+    "prompt": "When approaching a roundabout, what should you do?",
+    "options": [
+      "Enter quickly to claim your spot",
+      "Stop in the roundabout to yield",
+      "Slow down, yield to traffic in the circle and pedestrians, enter when there's a gap",
+      "Make a left turn to enter"
+    ],
+    "answerIndex": 2,
+    "explanation": "Yield to traffic already in the circle and to pedestrians in crosswalks; enter to the right when there's a safe gap.",
+    "refs": "Ch. 3 – Roundabout Intersections",
+    "id": "q021"
+  },
+  {
+    "category": "Turns & Lanes",
+    "prompt": "A center two‑way left‑turn lane may be used to:",
+    "options": [
+      "Make left turns (or permitted U‑turns) but not as a travel lane",
+      "Travel up to 1,000 feet to pass traffic",
+      "Park for short deliveries",
+      "Make right turns only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shared center lanes are for left turns and U‑turns where permitted; do not use as a travel lane and do not travel more than 500 feet.",
+    "refs": "Ch. 7 – Shared Center Lanes",
+    "id": "q022"
+  },
+  {
+    "category": "Turns & Lanes",
+    "prompt": "How far may you travel in a center two‑way left‑turn lane before turning?",
+    "options": [
+      "No more than 500 feet",
+      "No limit if traffic is light",
+      "At least 750 feet",
+      "Exactly 300 feet"
+    ],
+    "answerIndex": 0,
+    "explanation": "Do not travel in the shared center lane for more than 500 feet before turning.",
+    "refs": "Ch. 3/7 – Two‑Way Left‑Turn Lanes",
+    "id": "q023"
+  },
+  {
+    "category": "Turns & Lanes",
+    "prompt": "When turning left from a two‑way street onto a two‑way street, you should:",
+    "options": [
+      "Turn into the far right lane",
+      "Begin and end the turn as close as possible to the center line/nearest lane",
+      "Swing wide into any lane",
+      "Go straight then make a sudden left"
+    ],
+    "answerIndex": 1,
+    "explanation": "Begin with your left wheels near the center line and enter the lane nearest the center line of the roadway you are turning onto.",
+    "refs": "Ch. 3 – Left Turns",
+    "id": "q024"
+  },
+  {
+    "category": "Bicycles & Pedestrians",
+    "prompt": "When passing a bicyclist on a narrow lane, you should:",
+    "options": [
+      "Squeeze by to save time",
+      "Honk and pass closely",
+      "Slow down and wait for a clear stretch; give a full lane width when passing",
+      "Drive on the shoulder to pass"
+    ],
+    "answerIndex": 2,
+    "explanation": "Give bicycles a full lane width; do not squeeze past. Wait for a safe opportunity as you would for any slow‑moving vehicle.",
+    "refs": "Ch. 4 – Sharing the Road with Bicycles",
+    "id": "q025"
+  },
+  {
+    "category": "Motorcycles & Mopeds",
+    "prompt": "In Missouri, motorcycle riders must:",
+    "options": [
+      "Wear a safety‑certified helmet",
+      "Ride on the shoulder when traffic is heavy",
+      "Share lanes with cars",
+      "Have a horn only at night"
+    ],
+    "answerIndex": 0,
+    "explanation": "The law requires motorcycle riders to wear a helmet; see guide for details.",
+    "refs": "Ch. 4 – Safety Tips for Motorcycle Riders",
+    "id": "q026"
+  },
+  {
+    "category": "Large Trucks",
+    "prompt": "If you cannot see the truck driver in the truck's mirrors, then:",
+    "options": [
+      "They can still see you with cameras",
+      "The driver cannot see you",
+      "It's safe to follow closely",
+      "Pass immediately on the right"
+    ],
+    "answerIndex": 1,
+    "explanation": "If you can't see the driver's mirrors, you're in a No‑Zone (blind spot); give large vehicles extra space.",
+    "refs": "Ch. 4 – Sharing the Road with Large Trucks",
+    "id": "q027"
+  },
+  {
+    "category": "Large Trucks",
+    "prompt": "At 55 mph, about how far can a fully loaded tractor‑trailer take to stop compared to a passenger car?",
+    "options": [
+      "About 130–140 ft for both",
+      "Truck ~200 ft; car ~400 ft",
+      "Truck ~400 ft; car ~130–140 ft",
+      "Truck ~100 ft; car ~300 ft"
+    ],
+    "answerIndex": 2,
+    "explanation": "A passenger car can stop in ~130–140 ft; a fully loaded tractor‑trailer may need almost 400 ft.",
+    "refs": "Ch. 4 – Sharing the Road with Large Trucks",
+    "id": "q028"
+  },
+  {
+    "category": "Bicycles & Pedestrians",
+    "prompt": "At night, a bicycle must have a white front light visible from at least:",
+    "options": [
+      "200 feet",
+      "350 feet",
+      "500 feet",
+      "600 feet"
+    ],
+    "answerIndex": 2,
+    "explanation": "Bicycles need a white front light visible at 500 ft between ½ hour after sunset and ½ hour before sunrise.",
+    "refs": "Ch. 4 – Equipment Required on Bicycles",
+    "id": "q029"
+  },
+  {
+    "category": "Bicycles & Pedestrians",
+    "prompt": "At night, the required rear device for a bicycle is a red reflector (≥2 sq in) or red light visible from:",
+    "options": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "600 feet"
+    ],
+    "answerIndex": 3,
+    "explanation": "Rear red reflector or red light must be visible at 600 ft with low‑beam headlights.",
+    "refs": "Ch. 4 – Equipment Required on Bicycles",
+    "id": "q030"
+  },
+  {
+    "category": "Bicycles & Pedestrians",
+    "prompt": "Reflective material or lights on pedals/legs of a bicyclist at night must be visible from at least:",
+    "options": [
+      "100 feet",
+      "200 feet",
+      "300 feet",
+      "600 feet"
+    ],
+    "answerIndex": 1,
+    "explanation": "Reflective on pedals/legs must be visible at 200 ft.",
+    "refs": "Ch. 4 – Equipment Required on Bicycles",
+    "id": "q031"
+  },
+  {
+    "category": "Bicycles & Pedestrians",
+    "prompt": "Reflective material/lights on each side of a bicycle at night must be visible from:",
+    "options": [
+      "200 feet",
+      "300 feet",
+      "500 feet",
+      "600 feet"
+    ],
+    "answerIndex": 1,
+    "explanation": "Side visibility requirement is 300 ft (does not apply to certain mopeds meeting federal equipment regs).",
+    "refs": "Ch. 4 – Equipment Required on Bicycles",
+    "id": "q032"
+  },
+  {
+    "category": "Motorcycles & Mopeds",
+    "prompt": "To operate a motorized bicycle (moped) on public streets, you must:",
+    "options": [
+      "Register it and get motorcycle endorsement",
+      "Have a valid driver license",
+      "Have no license if it's under 30 mph",
+      "Ride only on sidewalks"
+    ],
+    "answerIndex": 1,
+    "explanation": "A valid driver license is required to operate a motorized bicycle on public streets.",
+    "refs": "Ch. 4 – Moped Drivers Need a Driver License",
+    "id": "q033"
+  },
+  {
+    "category": "Bicycles & Pedestrians",
+    "prompt": "Electric bicycles meeting the definition in law require what license?",
+    "options": [
+      "Motorcycle license",
+      "Operator license",
+      "No operator or motorcycle license required",
+      "CDL Class E"
+    ],
+    "answerIndex": 2,
+    "explanation": "Operation of defined electric bicycles does not require an operator or motorcycle license.",
+    "refs": "Ch. 4 – Sharing the Road with Electric Bicycles",
+    "id": "q034"
+  },
+  {
+    "category": "Funeral Processions",
+    "prompt": "Regarding an organized funeral procession, which is TRUE?",
+    "options": [
+      "It must yield at red lights",
+      "Other drivers may join to get through lights",
+      "It has the right‑of‑way at intersections unless directed otherwise; do not drive between its vehicles",
+      "It may exceed the speed limit"
+    ],
+    "answerIndex": 2,
+    "explanation": "Processions have right‑of‑way at intersections (except for emergency vehicles or law enforcement direction); do not drive between vehicles in the procession.",
+    "refs": "Ch. 4 – Funeral Processions",
+    "id": "q035"
+  },
+  {
+    "category": "Parking",
+    "prompt": "Which handicapped parking rule is correct?",
+    "options": [
+      "Access aisles are legal for brief stops",
+      "You may use a placard without transporting the person",
+      "It's illegal to park in the striped access aisle next to a space",
+      "Fines do not apply on weekends"
+    ],
+    "answerIndex": 2,
+    "explanation": "It is illegal to park in handicapped access aisles and to use a placard/plate when the person is not being transported.",
+    "refs": "Ch. 5 – Handicapped Parking",
+    "id": "q036"
+  },
+  {
+    "category": "Night & Weather",
+    "prompt": "Headlights must be used from:",
+    "options": [
+      "Sunset to sunrise",
+      "½ hour after sunset until ½ hour before sunrise",
+      "Dusk until dawn only in rural areas",
+      "Only when speed exceeds 40 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use headlights from ½ hour after sunset to ½ hour before sunrise.",
+    "refs": "Ch. 9 – Night Driving",
+    "id": "q037"
+  },
+  {
+    "category": "Night & Weather",
+    "prompt": "Missouri requires headlights any time:",
+    "options": [
+      "You use windshield wipers due to weather",
+      "You're on a gravel road",
+      "You feel sleepy",
+      "You drive below the speed limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Headlights are required any time weather conditions require the use of windshield wipers.",
+    "refs": "Ch. 9 – Headlight Use",
+    "id": "q038"
+  },
+  {
+    "category": "Night & Weather",
+    "prompt": "Dim your high beams when you come within ____ of an oncoming vehicle, and use low beams when following within ____.",
+    "options": [
+      "300 ft; 500 ft",
+      "500 ft; 300 ft",
+      "400 ft; 400 ft",
+      "200 ft; 200 ft"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use low beams within 500 ft of oncoming traffic and when following within 300 ft.",
+    "refs": "Ch. 9 – Night Driving",
+    "id": "q039"
+  },
+  {
+    "category": "Night & Weather",
+    "prompt": "Overdriving your headlights means:",
+    "options": [
+      "Using high beams in the city",
+      "Driving faster than you can stop within the ~350 ft your headlights let you see",
+      "Driving with fog lights in rain",
+      "Using headlights during the day"
+    ],
+    "answerIndex": 1,
+    "explanation": "Headlights let you see about 350 ft ahead; don't drive so fast you can't stop in that distance.",
+    "refs": "Ch. 9 – Night Driving",
+    "id": "q040"
+  },
+  {
+    "category": "Speed Limits",
+    "prompt": "Unless posted otherwise, the speed limit in any city, town, or village is:",
+    "options": [
+      "20 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "Default urban limit is 25 mph unless posted otherwise.",
+    "refs": "Ch. 7 – Speed Limit / Roadway Maximum Speed",
+    "id": "q041"
+  },
+  {
+    "category": "Speed Limits",
+    "prompt": "Maximum speed on rural interstates and freeways (unless posted otherwise) is:",
+    "options": [
+      "60 mph",
+      "65 mph",
+      "70 mph",
+      "75 mph"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rural interstates/freeways: 70 mph maximum unless posted otherwise.",
+    "refs": "Ch. 7 – Roadway Maximum Speed",
+    "id": "q042"
+  },
+  {
+    "category": "Speed Limits",
+    "prompt": "Maximum speed on rural expressways is:",
+    "options": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rural expressways: 65 mph.",
+    "refs": "Ch. 7 – Roadway Maximum Speed",
+    "id": "q043"
+  },
+  {
+    "category": "Speed Limits",
+    "prompt": "On interstates/freeways/expressways within urbanized areas, the maximum speed is generally:",
+    "options": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "Urbanized area interstates/freeways/expressways: 60 mph, unless posted otherwise.",
+    "refs": "Ch. 7 – Roadway Maximum Speed",
+    "id": "q044"
+  },
+  {
+    "category": "Speed Limits",
+    "prompt": "Lettered roads (state lettered routes) generally have a maximum speed of:",
+    "options": [
+      "45 mph",
+      "50 mph",
+      "55 mph",
+      "60 mph"
+    ],
+    "answerIndex": 2,
+    "explanation": "Lettered roads: 55 mph maximum unless posted otherwise.",
+    "refs": "Ch. 7 – Roadway Maximum Speed",
+    "id": "q045"
+  },
+  {
+    "category": "Speed Limits",
+    "prompt": "The minimum speed on Missouri interstates under normal conditions is:",
+    "options": [
+      "30 mph",
+      "35 mph",
+      "40 mph",
+      "45 mph"
+    ],
+    "answerIndex": 2,
+    "explanation": "Do not drive slower than 40 mph on interstates under normal conditions.",
+    "refs": "Ch. 7 – Speed Limit (minimum 40 on interstates)",
+    "id": "q046"
+  },
+  {
+    "category": "Railroad Crossings",
+    "prompt": "At a signalized railroad crossing with flashing red lights/gates, you must stop:",
+    "options": [
+      "Anywhere before the tracks",
+      "Within 5–10 feet of the gate",
+      "Within 15 to 50 feet before the nearest rail",
+      "Only if a train is visible"
+    ],
+    "answerIndex": 2,
+    "explanation": "Stop within 15–50 feet; never go around a lowered gate.",
+    "refs": "Ch. 7 – Railroad Crossing",
+    "id": "q047"
+  },
+  {
+    "category": "Railroad Crossings",
+    "prompt": "A white crossbuck at a railroad crossing means:",
+    "options": [
+      "Stop and wait 2 minutes",
+      "The same as a yield sign—yield to trains",
+      "No trains allowed",
+      "Trains will stop for you"
+    ],
+    "answerIndex": 1,
+    "explanation": "Crossbuck has the same meaning as YIELD; be prepared to stop for trains.",
+    "refs": "Ch. 7 – Railroad Crossing",
+    "id": "q048"
+  },
+  {
+    "category": "Railroad Crossings",
+    "prompt": "Which is TRUE at railroad crossings?",
+    "options": [
+      "It's okay to go around a lowered gate if no train is in sight",
+      "Shift gears while crossing to avoid stalling",
+      "Never go around the gate; don't start across until there's room beyond the tracks",
+      "Stop on the tracks if traffic is heavy"
+    ],
+    "answerIndex": 2,
+    "explanation": "Never go around a lowered gate; don't start across until you can completely clear the tracks.",
+    "refs": "Ch. 7 – Railroad Crossing",
+    "id": "q049"
+  },
+  {
+    "category": "Work Zones",
+    "prompt": "Penalties for speeding/passing in a Missouri work zone include at minimum:",
+    "options": [
+      "$50 first, $100 subsequent",
+      "$100 first, $150 subsequent",
+      "$250 first, $300 subsequent",
+      "$500 first, $1,000 subsequent"
+    ],
+    "answerIndex": 2,
+    "explanation": "Minimum $250 first offense; $300 second/subsequent, in addition to other fines.",
+    "refs": "Ch. 3 & 7 – Work Zones (Section 304.582 RSMo)",
+    "id": "q050"
+  },
+  {
+    "category": "Work Zones",
+    "prompt": "When approaching a flagger holding a STOP paddle in a work zone, you should:",
+    "options": [
+      "Proceed slowly without stopping",
+      "Follow the flagger's instructions and be prepared to stop",
+      "Honk to alert the crew",
+      "Use the shoulder to bypass"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flaggers control traffic in work zones—obey their signals and be ready to stop.",
+    "refs": "Ch. 7 – Types of Work Zones (Flagging Operations)",
+    "id": "q051"
+  },
+  {
+    "category": "Seat Belts & Children",
+    "prompt": "Which occupants must wear seat belts in Missouri?",
+    "options": [
+      "Only the driver",
+      "Operator and front‑seat passengers (and ALL passengers with an intermediate license holder)",
+      "Only passengers under 18",
+      "Seat belts are optional"
+    ],
+    "answerIndex": 1,
+    "explanation": "Operator and front‑seat occupants must be belted; all passengers with an intermediate driver must be properly restrained.",
+    "refs": "Ch. 8 – Seat Belts — It’s The Law",
+    "id": "q052"
+  },
+  {
+    "category": "Seat Belts & Children",
+    "prompt": "Children less than 4 years old (or any child under 40 pounds) must be:",
+    "options": [
+      "Secured by a safety belt only",
+      "Secured in an appropriate child passenger restraint system",
+      "Allowed to ride in the front seat",
+      "Unrestrained if traveling locally"
+    ],
+    "answerIndex": 1,
+    "explanation": "Children <4 years, and any child <40 lb, must be in an appropriate child restraint system.",
+    "refs": "Ch. 8 – Child Passenger Restraint Law",
+    "id": "q053"
+  },
+  {
+    "category": "Seat Belts & Children",
+    "prompt": "Children at least 4 but less than 8, who also weigh at least 40 but less than 80 pounds, and are under 4'9\" must be:",
+    "options": [
+      "In a child restraint/booster seat appropriate for the child",
+      "Just belted in any seat",
+      "Unrestrained in back seat",
+      "In front seat only"
+    ],
+    "answerIndex": 0,
+    "explanation": "These children must be in an appropriate child restraint or booster seat.",
+    "refs": "Ch. 8 – Child Passenger Restraint Law",
+    "id": "q054"
+  },
+  {
+    "category": "Seat Belts & Children",
+    "prompt": "Children at least 8 years old, or at least 80 pounds, or taller than 4'9\":",
+    "options": [
+      "May be secured by a vehicle safety belt or booster seat",
+      "Must always use a booster seat",
+      "Don't need any restraint",
+      "Must ride in the front seat"
+    ],
+    "answerIndex": 0,
+    "explanation": "They may be secured by a safety belt or booster appropriate for the child.",
+    "refs": "Ch. 8 – Child Passenger Restraint Law",
+    "id": "q055"
+  },
+  {
+    "category": "Safe Driving Habits",
+    "prompt": "A simple way to gauge safe following distance under good conditions is the:",
+    "options": [
+      "Two‑car rule",
+      "Three‑second rule",
+      "Five‑step rule",
+      "Ten‑foot rule"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the three‑second rule; increase in adverse conditions.",
+    "refs": "Ch. 8 – Following Other Vehicles",
+    "id": "q056"
+  },
+  {
+    "category": "Safe Driving Habits",
+    "prompt": "Use your horn primarily to:",
+    "options": [
+      "Express frustration",
+      "Warn other drivers of your presence",
+      "Greet friends",
+      "Signal a green light"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the horn only to warn; needless use can cause crashes.",
+    "refs": "Ch. 8 – Using Your Horn",
+    "id": "q057"
+  },
+  {
+    "category": "Vehicle Safety",
+    "prompt": "To avoid carbon monoxide poisoning, you should:",
+    "options": [
+      "Run the engine in a closed garage to warm up",
+      "Close windows when following closely",
+      "Never run the motor in a closed garage; don't use heater/AC in a parked car with windows closed",
+      "Use recirculate mode at all times"
+    ],
+    "answerIndex": 2,
+    "explanation": "Carbon monoxide is deadly—avoid running engines in enclosed spaces and keep ventilation safe.",
+    "refs": "Ch. 8 – Carbon Monoxide",
+    "id": "q058"
+  },
+  {
+    "category": "Night & Weather",
+    "prompt": "Hydroplaning can begin at speeds over about ____ on wet pavement, and total loss of tire contact can occur around ____ in heavy rain.",
+    "options": [
+      "25 mph; 45 mph",
+      "35 mph; 55 mph",
+      "45 mph; 65 mph",
+      "55 mph; 75 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hydroplaning can start over 35 mph; in severe rain, tires can lose all contact around 55 mph.",
+    "refs": "Ch. 9 – Hydroplaning",
+    "id": "q059"
+  },
+  {
+    "category": "Vehicle Control",
+    "prompt": "If your vehicle has four‑wheel ABS and you brake hard, you may feel pedal pulsations. You should:",
+    "options": [
+      "Pump the brakes repeatedly",
+      "Lift off the brakes and steer only",
+      "Maintain firm, continuous pressure on the brake while steering",
+      "Turn off the ignition while moving"
+    ],
+    "answerIndex": 2,
+    "explanation": "With ABS, hold firm, steady pressure and steer—do not pump the brakes.",
+    "refs": "Ch. 9 – Anti‑Lock Braking System (ABS)",
+    "id": "q060"
+  },
+  {
+    "category": "Vehicle Control",
+    "prompt": "If you begin to skid, you should:",
+    "options": [
+      "Brake hard and steer opposite the skid",
+      "Take your foot off the accelerator and steer gently in the direction the rear wheels are sliding",
+      "Accelerate to regain traction",
+      "Turn the wheel sharply and hold"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ease off the accelerator; steer in the direction of the rear‑wheel slide; avoid hard braking or jerky steering.",
+    "refs": "Ch. 9 – Skidding",
+    "id": "q061"
+  },
+  {
+    "category": "Vehicle Emergencies",
+    "prompt": "If you have a tire blowout, your first actions should be to:",
+    "options": [
+      "Brake hard and pull left",
+      "Hold the wheel tightly, ease off the accelerator, and let the vehicle slow before braking",
+      "Accelerate to keep control",
+      "Immediately downshift and brake hard"
+    ],
+    "answerIndex": 1,
+    "explanation": "Grip the wheel, ease off the gas, let the vehicle slow, then brake when nearly stopped.",
+    "refs": "Ch. 9 – Tire Blowout",
+    "id": "q062"
+  },
+  {
+    "category": "Vehicle Emergencies",
+    "prompt": "If your wheels run off the pavement edge, you should:",
+    "options": [
+      "Brake hard and jerk the wheel back",
+      "Take your foot off the accelerator, avoid hard braking, and return to the pavement when the lane is clear",
+      "Turn sharply back onto the road",
+      "Stop immediately in the lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ease off the gas, maintain control, and reenter when safe without sharp steering.",
+    "refs": "Ch. 9 – Running Off the Pavement",
+    "id": "q063"
+  },
+  {
+    "category": "Vehicle Emergencies",
+    "prompt": "If your accelerator sticks, what is the correct first step?",
+    "options": [
+      "Turn off the ignition immediately",
+      "Shift to neutral",
+      "Pull the parking brake hard",
+      "Open the hood"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shift to neutral, apply brakes, keep eyes on the road, and move safely off the roadway.",
+    "refs": "Ch. 9 – Stuck Accelerator",
+    "id": "q064"
+  },
+  {
+    "category": "Vehicle Emergencies",
+    "prompt": "If your headlights suddenly fail at night, you should first:",
+    "options": [
+      "Stop immediately in your lane",
+      "Turn on high beams only",
+      "Try the headlight switch/dimmer, then use parking/emergency lights and pull off the road",
+      "Accelerate to clear the area"
+    ],
+    "answerIndex": 2,
+    "explanation": "Attempt to restore lights; if not, use parking/flashers and pull off safely.",
+    "refs": "Ch. 9 – Headlight Failure",
+    "id": "q065"
+  },
+  {
+    "category": "Defensive Driving",
+    "prompt": "A vehicle is approaching head‑on in your lane. You should:",
+    "options": [
+      "Swerve left and speed up",
+      "Slow down, pull to the right, and sound your horn",
+      "Turn off your headlights",
+      "Stop in the middle of the lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Slow, pull right, and use the horn; do not swerve left into oncoming traffic.",
+    "refs": "Ch. 9 – Vehicle Approaching Head‑On",
+    "id": "q066"
+  },
+  {
+    "category": "Railroad Crossings",
+    "prompt": "Your vehicle stalls on the tracks and a train is approaching. You should:",
+    "options": [
+      "Run in the direction the train is heading",
+      "Stay in the car with seat belt on",
+      "Run in the direction the train is coming from",
+      "Try to push the vehicle off the tracks in front of the train"
+    ],
+    "answerIndex": 2,
+    "explanation": "Exit and run in the direction the train is coming from to avoid debris thrown forward by impact.",
+    "refs": "Ch. 9 – Stalling On Railroad Tracks",
+    "id": "q067"
+  },
+  {
+    "category": "Emergency Vehicles",
+    "prompt": "When an emergency vehicle with siren and red/blue lights is approaching, you must:",
+    "options": [
+      "Pull over to the right edge and stop; if in an intersection, clear it first",
+      "Stop in the lane immediately",
+      "Speed up to get out of the way",
+      "Pull left to the median"
+    ],
+    "answerIndex": 0,
+    "explanation": "Yield to emergency vehicles by pulling to the right and stopping; clear an intersection before doing so.",
+    "refs": "Ch. 3 – Emergency Vehicles",
+    "id": "q068"
+  },
+  {
+    "category": "Traffic Signals",
+    "prompt": "A flashing yellow arrow for a left turn means:",
+    "options": [
+      "Protected turn—oncoming traffic has a red light",
+      "No left turns allowed",
+      "You may turn left after yielding to oncoming traffic and pedestrians",
+      "Stop, then turn only on green"
+    ],
+    "answerIndex": 2,
+    "explanation": "Flashing yellow arrow = permissive turn; wait for an adequate gap and yield as required.",
+    "refs": "Ch. 7 – Left Turn Signals",
+    "id": "q069"
+  },
+  {
+    "category": "Traffic Signals",
+    "prompt": "If a traffic signal is dark (not working), you should treat the intersection as:",
+    "options": [
+      "A free‑for‑all",
+      "A four‑way stop",
+      "A yield only for minor streets",
+      "Closed to all traffic"
+    ],
+    "answerIndex": 1,
+    "explanation": "Dark signals operate as a four‑way stop.",
+    "refs": "Ch. 7 – Traffic Signals",
+    "id": "q070"
+  },
+  {
+    "category": "Alcohol & Drugs",
+    "prompt": "Administrative license action begins at a BAC of ____ for drivers 21+, and ____ for minors.",
+    "options": [
+      ".10%; .02%",
+      ".08%; .02%",
+      ".08%; .00%",
+      ".05%; .02%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Administrative action if BAC ≥ .08% (adults) or ≥ .02% (minors).",
+    "refs": "Ch. 10 – Administrative Actions",
+    "id": "q071"
+  }
+]
