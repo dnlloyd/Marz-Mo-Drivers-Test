@@ -7,6 +7,10 @@ A React app to help my daughter practice for the Missouri driver’s written exa
 
 ---
 
+[https://www.daniel-lloyd.net/marz-driver-test](https://www.daniel-lloyd.net/marz-driver-test/index.html)
+
+<img src="ss.png" width="600">
+
 ## Features
 
 - Practice mode with instant explanations  
@@ -32,6 +36,7 @@ A React app to help my daughter practice for the Missouri driver’s written exa
 - A package manager: `pnpm`, `yarn`, or `npm`
 
 ### Install
+
 ```bash
 # choose one
 pnpm install
@@ -41,7 +46,15 @@ yarn
 npm install
 ```
 
-### Project Structure
+## Deploy
+
+### Scripted
+
+```bash
+./deploy.sh E1E345POA9DNH3
+```
+
+## Project Structure
 
 ```
 your-project/
@@ -57,7 +70,7 @@ your-project/
    └─ main.css              # Tailwind v4 global stylesheet (see below)
 ```
 
-### Questions: external JSON schema
+## Questions: external JSON schema
 
 Customize questions in `public/questions.json`. The app fetches it at runtime. IDs must be strings (don’t use uid() in JSON).
 

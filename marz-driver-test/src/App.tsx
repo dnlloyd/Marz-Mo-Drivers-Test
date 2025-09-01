@@ -182,15 +182,39 @@ export default function App() {
   // Build list to render based on mode
   const listToRender: Question[] = mode === "test" ? testQuestions : filtered;
 
+  const HEADER_VIDEO_URL = import.meta.env.BASE_URL + "Marz-go-kart-crash.mp4";
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
-      {/* Header */}
-      <header className="sticky top-0 z-20 backdrop-blur bg-slate-950/70 border-b border-slate-800">
+
+    <header className="relative sticky top-0 z-20 overflow-hidden border-b border-slate-800">
+      {/* Background video layer */}
+      <div className="absolute inset-0 -z-10 pointer-events-none select-none">
+        <video
+          className="h-full w-full object-cover opacity-35 motion-safe:opacity-40 motion-reduce:hidden"
+          src={HEADER_VIDEO_URL}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          aria-hidden="true"
+        />
+        {/* Tint & readability veil */}
+        <div className="absolute inset-0 bg-slate-950/50" />
+      </div>
+
+      {/* Foreground (your existing header content) */}
+      <div className="max-w-5xl mx-auto">
+
         <div className="max-w-5xl mx-auto px-4 py-4 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <h1 className="text-2xl md:text-3xl font-bold tracking-tight">The Marz Missouri Driver Practice Test</h1>
-            <p className="text-slate-300 text-sm md:text-base">
+            <p className="text-slate-400 text-sm md:text-base">
               Practice in bite-sized questions, then take a timed-style mini-test.
+            </p>
+            <p className="text-slate-300 text-xs">
+              Download official <a className="underline underline-offset-2 hover:text-slate-100" href="https://dor.mo.gov/forms/Driver%20Guide.pdf">Missouri Driver Guide</a> (Aug 2025)
             </p>
           </div>
 
@@ -215,7 +239,45 @@ export default function App() {
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
+
+
+      {/* Header */}
+      {/* <header className="sticky top-0 z-20 backdrop-blur bg-slate-950/70 border-b border-slate-800">
+        <div className="max-w-5xl mx-auto px-4 py-4 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h1 className="text-2xl md:text-3xl font-bold tracking-tight">The Marz Missouri Driver Practice Test</h1>
+            <p className="text-slate-400 text-sm md:text-base">
+              Practice in bite-sized questions, then take a timed-style mini-test.
+            </p>
+            <p className="text-slate-300 text-xs">
+              Download official <a href="https://dor.mo.gov/forms/Driver%20Guide.pdf">Missouri Driver Guide</a> (Aug 2025)
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <img
+              src={MARZ_URL}
+              alt="Marz — future Missouri driver"
+              className="block h-12 w-12 rounded-full object-cover shadow-md ring-2 ring-emerald-500/40 border border-slate-700"
+              loading="eager"
+              decoding="async"
+              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+            />
+            <div className="flex gap-2">
+              <button
+                className={`px-3 py-2 rounded-xl text-sm font-semibold border ${mode === "practice" ? "bg-emerald-600 border-emerald-500" : "bg-slate-800 border-slate-700"}`}
+                onClick={() => setMode("practice")}
+              >Practice Mode</button>
+              <button
+                className={`px-3 py-2 rounded-xl text-sm font-semibold border ${mode === "test" ? "bg-indigo-600 border-indigo-500" : "bg-slate-800 border-slate-700"}`}
+                onClick={() => setMode("test")}
+              >Test Mode</button>
+            </div>
+          </div>
+        </div>
+      </header> */}
 
       {/* Controls */}
       <section className="max-w-5xl mx-auto px-4 py-4">
@@ -389,7 +451,7 @@ export default function App() {
         )}
 
         <footer className="mt-12 border-t border-slate-800 pt-6 pb-16 text-xs text-slate-400">
-          <p>This educational practice tool is derived from Missouri Driver Guide content (August 2025). Always consult the official guide and local laws.</p>
+          <p>This educational practice tool is derived from <a href="https://dor.mo.gov/forms/Driver%20Guide.pdf">Missouri Driver Guide</a> content (August 2025). Always consult the official guide and local laws.</p>
         </footer>
       </main>
     </div>
